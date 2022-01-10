@@ -1,4 +1,4 @@
-# Expense Reimbursement System - Java / Spring
+# Expense Reimbursement Desktop Application - Java / Spring
 
 This application is an expense reimbursement system back-end, built via the Spring framework in Java.
 It is a RESTful API that allows admins, managers, and employees to login, view and manage business related expenses that need to be reimbursed.
