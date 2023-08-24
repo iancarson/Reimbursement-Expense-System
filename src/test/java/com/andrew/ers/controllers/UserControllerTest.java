@@ -51,12 +51,4 @@ public class UserControllerTest extends BaseControllerTest {
 		   .andExpect(status().isBadRequest());
 	}
 	
-//	@Test
-//	public void updateUser() throws Exception {
-//		testUser.setFirstName("NewFirstName");
-//		String json = mapper.writeValueAsString(testUser);
-//		mvc.perform(put("/users/1").contentType(MediaType.APPLICATION_JSON_UTF8).content(json))
-//		  .andExpect(status().is2xxSuccessful());
-//		mvc.perform(get("/users/1")).andExpect(jsonPath("$.firstName", is("NewFirstName")));
-//	}
 }
