@@ -45,14 +45,7 @@ public class ReimbursementControllerTest extends BaseControllerTest {
 		mvc.perform(get("/users/acrenwelge/reimbursements").contentType(MediaType.APPLICATION_JSON))
 		.andExpect(status().isOk());
 	}
-	
-	// TODO: change this (doesn't do anything more than the above)
-//	@Test
-//	public void testNewReimbursementForUser() throws Exception {
-//		generateMockReimbursementData();
-//		mvc.perform(get("/users/acrenwelge/reimbursements").contentType(MediaType.APPLICATION_JSON_UTF8_VALUE))
-//		.andExpect(status().isOk());
-//	}
+
 	
 	@Test
 	public void testApproveReimbursement() throws Exception {
