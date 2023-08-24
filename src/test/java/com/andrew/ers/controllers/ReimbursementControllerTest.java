@@ -77,12 +77,5 @@ public class ReimbursementControllerTest extends BaseControllerTest {
 		assertFalse(resp.isApproved());
 	}
 		
-//	@Test
-//	public void testMultipartReceiptUpload() throws Exception {
-//		MockMultipartFile multipartFile = new MockMultipartFile("file", "test.txt",
-//                "text/plain", "MULTIPART UPLOAD TEST SUCCESSFULL!!!".getBytes());
-//        this.mvc.perform(multipart("/users/acrenwelge/expenses/1")
-//        		.file(multipartFile).contentType(MediaType.MULTIPART_FORM_DATA))
-//                .andExpect(status().isFound());
-//	}
+
 }
