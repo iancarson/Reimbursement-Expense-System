@@ -62,7 +62,7 @@ public class ExpenseService {
 	 * @param id
 	 * @param username
 	 * @return Optional<Expense> - will be empty if expense does not exist
-	 * @throws IOException
+	 * @throws IOException.
 	 */
 	public Optional<ExpenseDTO> addReceiptToExpenseById(long id, String username, MultipartFile file) throws IOException {
 		Optional<Expense> e = repo.findById(id);
