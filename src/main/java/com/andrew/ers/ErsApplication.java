@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ErsApplication {
 
 	public static void main(String[] args) throws Exception {
-		SpringApplication.run(ErsApplication.class, args);// SpringApplication.main(args);
+		SpringApplication.run(ErsApplication.class, args);//SpringApplication.main(args);
 
 	}
 
