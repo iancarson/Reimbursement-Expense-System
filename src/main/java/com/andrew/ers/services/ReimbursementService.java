@@ -112,10 +112,6 @@ public class ReimbursementService {
 		userRepo.save(user);
 	}
 	
-	/**
-	 * Approves the reimbursement request of the given id
-	 * @param id
-	 */
 	public void approveReimbursement(long id) {
 		Optional<Reimbursement> optR = reimbursementRepo.findById(id);
 		if (optR.isPresent()) {
