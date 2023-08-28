@@ -121,10 +121,6 @@ public class ReimbursementService {
 		}
 	}
 	
-	/**
-	 * Denies the reimbursement request of the given id
-	 * @param id
-	 */
 	public void denyReimbursement(long id) {
 		Optional<Reimbursement> optR = reimbursementRepo.findById(id);
 		if (optR.isPresent()) {
