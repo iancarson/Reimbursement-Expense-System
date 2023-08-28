@@ -102,10 +102,8 @@ public class ReimbursementService {
 		return new Resources<>(convert(newList), 
 				linkTo(methodOn(ReimbursementController.class).getAllReimbursements()).withSelfRel());
 	}
+
 	
-	/**
-	 * Approves all reimbursement requests from a user
-	 */
 	public void approveAllReimbursements(String username) {
 		AppUser user = userRepo.findByUsername(username);
 		user.getReimbursements().forEach((r) -> r.setApproved(true));
