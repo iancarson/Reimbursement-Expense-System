@@ -86,11 +86,6 @@ public class ReimbursementService {
 		}
 	}
 	
-	/**
-	 * Adds a new reimbursement to the user, then updates the user which
-	 * persists the new reimbursement to the database 
-	 * @return 
-	 */
 	public Resources<ReimbursementDTO> submitNewReimbursement(String username, ReimbursementDTO newR) {
 		AppUser user = userRepo.findByUsername(username);
 		newR.setApproved(false); // every new request is not approved by default
