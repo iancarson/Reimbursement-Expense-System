@@ -13,5 +13,4 @@ public class ErsApplicationTests {
 	@Test
 	public void contextLoads() {
 	}
-//TODO: Comp
 }
