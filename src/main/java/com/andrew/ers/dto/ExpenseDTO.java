@@ -43,6 +43,7 @@ public class ExpenseDTO {
 	public void setDescription(String description) {
 		this.description = description;
 	}
+	
 	public URL getReceiptURL() {
 		return receiptURL;
 	}
