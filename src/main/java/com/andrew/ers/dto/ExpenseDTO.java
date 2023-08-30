@@ -47,6 +47,7 @@ public class ExpenseDTO {
 	public URL getReceiptURL() {
 		return receiptURL;
 	}
+	
 	public URI getReceiptURI() throws URISyntaxException {
 		if (receiptURL != null) {
 			return receiptURL.toURI();
