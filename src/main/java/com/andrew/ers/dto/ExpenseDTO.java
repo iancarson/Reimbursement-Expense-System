@@ -35,6 +35,7 @@ public class ExpenseDTO {
 	public void setAmount(double amount) {
 		this.amount = amount;
 	}
+	
 	public String getDescription() {
 		return description;
 	}
