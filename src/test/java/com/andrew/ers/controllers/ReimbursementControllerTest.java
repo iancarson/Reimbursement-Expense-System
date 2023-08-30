@@ -76,6 +76,4 @@ public class ReimbursementControllerTest extends BaseControllerTest {
 		ReimbursementDTO resp = mapper.readValue(r.getContentAsString(), ReimbursementDTO.class);
 		assertFalse(resp.isApproved());
 	}
-		
-
 }
