@@ -54,6 +54,7 @@ public class ExpenseDTO {
 		}
 		return null;
 	}
+	
 	public void setReceiptURL(URL receiptURL) {
 		this.receiptURL = receiptURL;
 	}
