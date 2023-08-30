@@ -103,4 +103,5 @@ public class ExpenseDTO {
 		return "ExpenseDTO [id=" + id + ", amount=" + amount + ", description=" + description + ", receiptURL="
 				+ receiptURL + "]";
 	}
+	
 }
