@@ -79,7 +79,7 @@ public class S3Service {
             return url;
         } catch (AmazonServiceException e) {
             // The call was transmitted successfully, but Amazon S3 couldn't process 
-            // it, so it returned an error response.
+            // it, so it returned an error response
             log.error(e.getErrorMessage());
         } catch (SdkClientException e) {
             // Amazon S3 couldn't be contacted for a response, or the client  
