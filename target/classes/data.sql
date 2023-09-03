@@ -13,4 +13,6 @@ INSERT INTO reimbursement(user_id, is_approved) VALUES (1, true);
 INSERT INTO expense(reimbursement_id, amount, description) VALUES (1, 1.99, 'some description');
 INSERT INTO expense(reimbursement_id, amount, description) VALUES (1, 5.31, 'some description');
 INSERT INTO expense(reimbursement_id, amount, description) VALUES (1, 9.76, 'some description');
+
+
 */
