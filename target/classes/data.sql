@@ -15,4 +15,7 @@ INSERT INTO expense(reimbursement_id, amount, description) VALUES (1, 5.31, 'som
 INSERT INTO expense(reimbursement_id, amount, description) VALUES (1, 9.76, 'some description');
 
 The better alternative is to use Transactions.Below are the main pros for using this approach:
+- We use batch inserts for users, reimbursements, and expenses to minimize the number of queries.
+- We use a transaction to ensure that all related data is inserted consistently.
+- We use the lastval() function to retrieve the last inserted reimbursement_id and use it in the expense table inserts.
 */
