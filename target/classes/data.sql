@@ -14,5 +14,5 @@ INSERT INTO expense(reimbursement_id, amount, description) VALUES (1, 1.99, 'som
 INSERT INTO expense(reimbursement_id, amount, description) VALUES (1, 5.31, 'some description');
 INSERT INTO expense(reimbursement_id, amount, description) VALUES (1, 9.76, 'some description');
 
-The better alternative is to use Transactions.
+The better alternative is to use Transactions.Below are the main pros for using this approach:
 */
