@@ -15,5 +15,6 @@ INSERT INTO expense(reimbursement_id, amount, description) VALUES (1, 5.31, 'som
 INSERT INTO expense(reimbursement_id, amount, description) VALUES (1, 9.76, 'some description');
 */
 /* Below is the Optimized version of the SQL statements, and a detailed steps of what was done to improve the SQL commands:
+# What was done:#
 
 */
