@@ -18,4 +18,5 @@ INSERT INTO expense(reimbursement_id, amount, description) VALUES (1, 9.76, 'som
 # What was done:#
 - Used batch inserts for users, reimbursements, and expenses to minimize the number of queries.
 - Used a transaction to ensure that all related data is inserted consistently.
+- Used the lastval() function to retrieve the last inserted reimbursement_id and use it in the expense table inserts.
 */
