@@ -16,5 +16,5 @@ INSERT INTO expense(reimbursement_id, amount, description) VALUES (1, 9.76, 'som
 */
 /* Below is the Optimized version of the SQL statements, and a detailed steps of what was done to improve the SQL commands:
 # What was done:#
-
+- use batch inserts for users, reimbursements, and expenses to minimize the number of queries.
 */
